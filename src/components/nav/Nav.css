@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B6C17B;
+    padding: 2%;
+    font-family: 'Great Vibes';
+    color: white;
+    font-size: 200%;
+}
+
+.navbar-item {
+    margin: 0%;
+}

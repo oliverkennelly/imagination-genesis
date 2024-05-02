@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Grian Dreamslayer",
+      "email": "peskybird@hermitmail.com"
+    },
+    {
+      "id": 2,
+      "name": "ClownPierce",
+      "email": "jester@lifesteal.com"
+    },
+    {
+      "id": 3,
+      "name": "Jack Manifold",
+      "email": "jackmani@gmail.com"
+    }
+  ],
+  "worlds": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Aethis",
+      "map": "https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_LowRes.jpg",
+      "description": "Aethis is a war torn world where trust is more rare than gold and a knife in your back is more expected than kindness. It's people are hardened and cruel to survive the world they live in."
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Circus World",
+      "map": "https://euysod7wde9.exactdn.com/wp-content/uploads/2016/03/Circus-World-Map-1980.jpg?strip=all&lossy=1&ssl=1",
+      "description": "A fun world for all ages, where the laughter never stops! Where you're not allowed to stop. Circus World is a speical ring of hell rulled by a tyranical clown who just wants you to keep laughing! So keep laughing, if you value your life."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "name": "Darth World",
+      "map": "https://preview.redd.it/mk04avq98o271.jpg?width=1080&crop=smart&auto=webp&s=0afd2a1b6c3c0564cf206fcdda9cbe1ba1c1ad3b",
+      "description": "A world that is full of darkness, idk honestly blah blah blah"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "worldId": 1,
+      "name": "Epiruim",
+      "terrain": "Rocky Beach",
+      "description": "Epiruim is a beach port city where the wealthy folk who have benefited from the war congregate. The city is one of the nicer looker cities, with a strict curfew for anyone not as privileged. The city has walls surrounding it and an unforgiving immigration and visitation policy.",
+      "image": "https://cdna.artstation.com/p/assets/images/images/028/317/838/large/olena-kirdina-kirdina-elena-1.jpg?1594128656"
+    },
+    {
+      "worldId": 1,
+      "name": "Raven's Point",
+      "terrain": "Underground",
+      "description": "Raven's Point is the complex system of underground tunnels spiraling across the world, where most of the world thrives in. Tunnels are easily hidden, thus the safest places to live, where people can be entirely hidden away.",
+      "image": "",
+      "id": 2
+    },
+    {
+      "worldId": 3,
+      "name": "Hyrule Castle",
+      "terrain": "Plains",
+      "description": "Hyrule Castle is where the royal family of Hyrule reside. It's also where all guards are trained. The walls protect it from invaders.",
+      "image": "",
+      "id": 4
+    }
+  ],
+  "civilizations": [
+    {
+      "id": 1,
+      "worldId": 1,
+      "name": "The Proper Society",
+      "locationId": 1,
+      "description": "The Proper Society is the name the nobles of Epiruim have given themselves, believing themselves above and superior to the others struggling along in the world. Their influence reaches far, enticing others to work and sacrifice everything to get the chance to live among them.",
+      "history": "The Proper Society boasts about a long line of wealthy families, but the records of said families are long lost ever since the Great War dawned on the world. With the rise Great War, the Proper Society rose up alongside the conflicts, using the state of the world to elevate themselves.",
+      "image": "https://www.northwindprints.com/p/473/courtship-medieval-burgundy-5881156.jpg"
+    },
+    {
+      "worldId": 1,
+      "name": "The Dwellers",
+      "locationId": 2,
+      "description": "The Dwellers are the people who live in the tunnels. Most prefer to stay down in the tunnels rather than risk their lives on the surface.",
+      "history": "The Dwellers began as soldiers building bunkers for their wars, which turned into sprawling tunnels. Slowly, the tunnels grew in size as the wars continued, branches made from emergency bunkers, and the Dwellers were established 10 years after the start of the Great War . ",
+      "image": "",
+      "id": 2
+    }
+  ]
+}

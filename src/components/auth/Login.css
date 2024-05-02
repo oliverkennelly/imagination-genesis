@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/dndsitebackground2.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-login {
+    color: aliceblue;
+    padding: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    padding: 5%;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.welcome {
+    font-family: 'Great Vibes';
+    font-size: 200%;
+    padding: 2%;
+}
+
+.message {
+    font-family: 'Mate SC';
+    font-size: 130%;
+    padding: 2%;
+}
+
+input {
+    font-family: 'EB Garamond';
+    width: 90%;
+}
+
+button {
+    font-family: 'Mate SC';
+    margin: 2%;
+}

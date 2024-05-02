@@ -1,0 +1,71 @@
+.color {
+    background-color: #F2E5C8;
+    background-image: none;
+}
+
+.header {
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-size: 150%;
+    padding: 2%;
+}
+
+.all-worlds {
+    display: flex;
+    flex-direction: column;
+}
+
+.world {
+    margin: 2%;
+    background-image: url("../images/parchmentpaper.png");
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container {
+    display: flex;
+}
+
+.world-map {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.world-info {
+    font-family: 'EB Garamond';
+    margin: 2%;
+    font-size: 110%;
+}
+
+.world-name {
+    font-size: 150%;
+    margin-bottom: 4%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.world-edit-button {
+    background-color: #DF7676;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 100%;
+}
+
+.create-new-world {
+    background-color: #DF7676;
+    color: white;
+    font-family: 'Great Vibes';
+    font-size: 200%;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+}
