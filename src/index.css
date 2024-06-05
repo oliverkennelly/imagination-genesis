@@ -4,9 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond");
 @import url("https://fonts.googleapis.com/css?family=Mate+SC");
 
-html,
 body,
-div,
 span,
 applet,
 object,
@@ -20,7 +18,6 @@ h6,
 p,
 blockquote,
 pre,
-a,
 abbr,
 acronym,
 address,
@@ -126,4 +123,33 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+html {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #F2E5C8;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: inherit;
+  text-decoration: inherit;
 }

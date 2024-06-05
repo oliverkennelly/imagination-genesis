@@ -1,12 +1,13 @@
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { deleteWorldById } from "../../services/worldService"
 
 export const World = ({world, getAllUserWorlds}) => {
     const navigate = useNavigate()
 
     const handleDeleteWorld = () => {
-        deleteWorldById(world.id)
-        getAllUserWorlds()
+        deleteWorldById(world.id).then(() => {
+            getAllUserWorlds()
+        })
     }
 
     const handleEditClick = () => {
@@ -18,10 +19,16 @@ export const World = ({world, getAllUserWorlds}) => {
             {world.map === "" ? (
                 <p></p>
             ) : (
+                <div className="world-photo">
                 <img className="world-map" src={world.map}/>
+                </div>
             )}
             <div className="world-info">
-                <h3 className="world-name">{world.name}</h3>
+                <h3 className="world-name">
+                <Link 
+                to={`/${world.id}`}
+                >{world.name}</Link>
+                </h3>
                 {world.description}
             </div>
         </div>

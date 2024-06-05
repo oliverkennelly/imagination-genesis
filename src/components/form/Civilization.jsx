@@ -63,7 +63,7 @@ export const Civilization = ({worldId, locationSaved, setCivilizationSaved, setC
     //name, terrain, description, image
     return <div>
         <p>Name Of Civilization</p>
-        <input 
+        <input className="input-box"
         value={civilName}
         onChange={(event) => {
             setCivilName(event.target.value)
@@ -80,19 +80,19 @@ export const Civilization = ({worldId, locationSaved, setCivilizationSaved, setC
             })}
         </select>
         <p>Description Of Civilization</p>
-        <input 
+        <textarea className="input-box"
         value={civilDescription}
         onChange={(event) => {
             setCivilDescription(event.target.value)
         }}/>
         <p>History Of Civilization</p>
-        <input 
+        <textarea className="input-box"
         value={civilHistory}
         onChange={(event) => {
             setCivilHistory(event.target.value)
         }}/>
         <p>Image URL Of Location</p>
-        <input 
+        <input className="input-box"
         value={civilImage}
         onChange={(event) => {
             setCivilImage(event.target.value)

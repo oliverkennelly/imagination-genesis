@@ -32,37 +32,45 @@
       "description": "A fun world for all ages, where the laughter never stops! Where you're not allowed to stop. Circus World is a speical ring of hell rulled by a tyranical clown who just wants you to keep laughing! So keep laughing, if you value your life."
     },
     {
-      "id": 3,
+      "id": 4,
       "userId": 1,
-      "name": "Darth World",
-      "map": "https://preview.redd.it/mk04avq98o271.jpg?width=1080&crop=smart&auto=webp&s=0afd2a1b6c3c0564cf206fcdda9cbe1ba1c1ad3b",
-      "description": "A world that is full of darkness, idk honestly blah blah blah"
+      "name": "Empires",
+      "map": "https://static.wikia.nocookie.net/1b212bf2-a5ad-4dd5-b09b-e1005bd2a9a2/scale-to-width/755",
+      "description": "Empires is a world ruled by multiple empires, each with vastly different citizens and architecture. The 13 emperors rule over the known world, each fair and just rulers. The emperors keep each other in check, leading to long lasting peace and prosperity."
     }
   ],
   "locations": [
     {
-      "id": 1,
       "worldId": 1,
       "name": "Epiruim",
       "terrain": "Rocky Beach",
-      "description": "Epiruim is a beach port city where the wealthy folk who have benefited from the war congregate. The city is one of the nicer looker cities, with a strict curfew for anyone not as privileged. The city has walls surrounding it and an unforgiving immigration and visitation policy.",
-      "image": "https://cdna.artstation.com/p/assets/images/images/028/317/838/large/olena-kirdina-kirdina-elena-1.jpg?1594128656"
+      "description": "Epiruim is a beach port city where the wealthy folk who have benefited from the war congregate. The city is one of the nicer looking cities, with a strict curfew for anyone not as privileged. The city has walls surrounding it and an unforgiving immigration and visitation policy.",
+      "image": "https://cdna.artstation.com/p/assets/images/images/028/317/838/large/olena-kirdina-kirdina-elena-1.jpg?1594128656",
+      "id": 1
     },
     {
       "worldId": 1,
       "name": "Raven's Point",
-      "terrain": "Underground",
+      "terrain": "Mountains",
       "description": "Raven's Point is the complex system of underground tunnels spiraling across the world, where most of the world thrives in. Tunnels are easily hidden, thus the safest places to live, where people can be entirely hidden away.",
       "image": "",
       "id": 2
     },
     {
-      "worldId": 3,
-      "name": "Hyrule Castle",
-      "terrain": "Plains",
-      "description": "Hyrule Castle is where the royal family of Hyrule reside. It's also where all guards are trained. The walls protect it from invaders.",
-      "image": "",
-      "id": 4
+      "worldId": 4,
+      "name": "Pixandria",
+      "terrain": "Desert",
+      "description": "Pixandria is the empire located in the center of the north-west desert separated from the other empires by the Ocean Empire and the western mesa. It was led by Emperor Pixlriffs before he mysteriously left and abandoned the empire. The empire's main export is copper, which gave Pixl his nickname, \"Copper King\".",
+      "image": "https://64.media.tumblr.com/2491c550ff90c25ce7d5ed991ac91eee/725a65f113073eba-19/s1280x1920/350c5288584db3191d773b1295a84f54001813d9.jpg",
+      "id": 5
+    },
+    {
+      "worldId": 4,
+      "name": "House Blossom",
+      "terrain": "Flower Forest",
+      "description": "House Blossom is an empire located in a small flower forest called the Overgrown between Rivendell in the mountains and Gilded Helianthia in the oak forest. The empire's current ruler is Katherine Elizabeth and its main exports are a variety of flowers and other plants.",
+      "image": "https://64.media.tumblr.com/50b9746b1c30a4c5b5d55a30576b969f/b45482a8ae875f73-cb/s1280x1920/3799397d36157dd602f5193bb5492a9609b351a3.png",
+      "id": 6
     }
   ],
   "civilizations": [
@@ -83,6 +91,15 @@
       "history": "The Dwellers began as soldiers building bunkers for their wars, which turned into sprawling tunnels. Slowly, the tunnels grew in size as the wars continued, branches made from emergency bunkers, and the Dwellers were established 10 years after the start of the Great War . ",
       "image": "",
       "id": 2
+    },
+    {
+      "worldId": 4,
+      "name": "Fairies",
+      "locationId": 6,
+      "description": "The Fairies are the citizens of House Blossom, a joyful people who dance and enjoy flowers. They're peaceful people who carry no judgment or hostility and are the most friendly people out of all the empires. They give gifts frequently, as a part of their culture, and many are flower farmers. ",
+      "history": "The Fairies are one of the oldest civilizations, having been a community long before the first empire was formed. Their free spirited nature meant that they would drift across flower forests and fields without solid homes, which came to a change under Empress Katherine. Katherine rallied the Fairies together to stand under one banner after the mysterious force called the Overgrown chose her as their leader. ",
+      "image": "https://64.media.tumblr.com/9f5d5b96a749cc2a16af302ce98df20b/c08d7c6bec7a7cfa-6e/s1280x1920/08d624611388fd24bb114e797c47213d4a205ed7.pnj",
+      "id": 4
     }
   ]
 }

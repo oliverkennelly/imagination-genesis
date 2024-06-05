@@ -9,7 +9,7 @@ export const NavBar = ({currentUser}) => {
     return <ul className="navbar">
         <h3>Welcome {usersName}</h3>
         {localStorage.getItem("genesis_user") ? (
-            <button className="navbar-item">
+            <button className="logout-button">
                 <Link
                     to=""
                     onClick={() => {

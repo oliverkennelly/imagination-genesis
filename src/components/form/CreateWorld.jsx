@@ -100,33 +100,45 @@ export const CreateWorld = ({currentUser}) => {
     }, [civilizationSaved])
 
     return (
-        <div className="color">
-            <button onClick={handleHomeClick}>Home</button>
-            <p>Name of the world</p>
-            <input
-            value={worldName}
-            onChange={(event) => {
-                setWorldName(event.target.value)
-            }}/>
-            <p>Description</p>
-            <input 
-            value={worldDesc}
-            onChange={(event) => {
-                setWorldDesc(event.target.value)
-            }}/>
-            <p>World Map Url</p>
-            <input 
-            value={worldMap}
-            onChange={(event) => {
-                setWorldMap(event.target.value)
-            }}/>
-            <div><Location worldId={worldId} setLocationSaved={setLocationSaved} setLocationEditMode={setLocationEditMode} locationEditMode={locationEditMode} editedLocationId={editedLocationId}/>
-            <LocationList allLocations={allLocations} setLocationSaved={setLocationSaved} setLocationEditMode={setLocationEditMode} setEditedLocationId={setEditedLocationId}/></div>
-            <div><Civilization worldId={worldId} locationSaved={locationSaved} setCivilizationSaved={setCivilizationSaved} setCivilizationEditMode={setCivilizationEditMode} civilizationEditMode={civilizationEditMode} editedCivilizationId={editedCivilizationId}/></div>
-            <div><CivilizationList allCivilizations={allCivilizations} setCivilizationSaved={setCivilizationSaved} setCivilizationEditMode={setCivilizationEditMode} setEditedCivilizationId={setEditedCivilizationId}/></div>
-            <div>
-                <button onClick={handleDeleteClick}>Delete</button>
-                <button onClick={handleSaveClick}>Save</button>
+        <div className="main">
+            <div className="form-header">
+                <button className="button" onClick={handleHomeClick}>Home</button>
+                <p>Name of the world</p>
+                <input
+                value={worldName}
+                onChange={(event) => {
+                    setWorldName(event.target.value)
+                }}/>
+            </div>
+            <div className="forms">
+            <div className="box">
+                <div className="world-map-form">
+                <p>World Map Url</p>
+                <input className="input-box"
+                value={worldMap}
+                onChange={(event) => {
+                    setWorldMap(event.target.value)
+                }}/>
+                </div>
+                <div className="mini-form-box"><Location worldId={worldId} setLocationSaved={setLocationSaved} setLocationEditMode={setLocationEditMode} locationEditMode={locationEditMode} editedLocationId={editedLocationId}/></div>
+                <div><LocationList allLocations={allLocations} setLocationSaved={setLocationSaved} setLocationEditMode={setLocationEditMode} setEditedLocationId={setEditedLocationId}/></div>
+                </div>
+            <div className="box">
+                <div className="world-description-form">
+                <p>Description</p>
+                <textarea className="world-description-input"
+                value={worldDesc}
+                onChange={(event) => {
+                    setWorldDesc(event.target.value)
+                }}/>
+                </div>
+                <div className="mini-form-box"><Civilization worldId={worldId} locationSaved={locationSaved} setCivilizationSaved={setCivilizationSaved} setCivilizationEditMode={setCivilizationEditMode} civilizationEditMode={civilizationEditMode} editedCivilizationId={editedCivilizationId}/></div>
+                <div><CivilizationList allCivilizations={allCivilizations} setCivilizationSaved={setCivilizationSaved} setCivilizationEditMode={setCivilizationEditMode} setEditedCivilizationId={setEditedCivilizationId}/></div>
+            </div>
+            </div>
+            <div className="button-box">
+                <button className="button" onClick={handleDeleteClick}>Delete</button>
+                <button className="button" onClick={handleSaveClick}>Save</button>
             </div>
         </div>
     )

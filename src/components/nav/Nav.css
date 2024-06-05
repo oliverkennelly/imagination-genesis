@@ -6,9 +6,25 @@
     padding: 2%;
     font-family: 'Great Vibes';
     color: white;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .navbar-item {
     margin: 0%;
+}
+
+.logout-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Mate SC';
+    font-size: 40%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #acacac;
 }

@@ -33,3 +33,8 @@ export const saveCivilizationByCivilizationId = (civilizationBody, civilizationI
 export const getCivilizationById = (civilizationId) => {
     return fetch(`http://localhost:8088/civilizations/${civilizationId}`).then((res) => res.json())
 }
+
+export const deleteCivilizationById = (civilId) => {
+    return fetch(`http://localhost:8088/civilizations/${civilId}`, {
+        method: "DELETE"
+})}

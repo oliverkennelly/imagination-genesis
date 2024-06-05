@@ -1,4 +1,7 @@
-body {
+.background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-image: url("../images/dndsitebackground2.jpeg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -8,6 +11,7 @@ body {
 
 .container-login {
     color: aliceblue;
+    height: 32%;
     padding: 20%;
     text-align: center;
     display: flex;
@@ -39,4 +43,5 @@ input {
 button {
     font-family: 'Mate SC';
     margin: 2%;
+
 }

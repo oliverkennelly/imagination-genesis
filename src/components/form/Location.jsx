@@ -53,25 +53,25 @@ export const Location = ({worldId, setLocationSaved, setLocationEditMode, locati
     //name, terrain, description, image
     return <div>
         <p>Name Of Location</p>
-        <input 
+        <input className="input-box"
         value={locationName}
         onChange={(event) => {
             setLocationName(event.target.value)
         }}/>
         <p>Terrain Of Location</p>
-        <input 
+        <input className="input-box"
         value={locationTerrain}
         onChange={(event) => {
             setLocationTerrain(event.target.value)
         }}/>
         <p>Description Of Location</p>
-        <input 
+        <textarea className="input-box"
         value={locationDesc}
         onChange={(event) => {
             setLocationDesc(event.target.value)
         }}/>
         <p>Image URL Of Location</p>
-        <input 
+        <input className="input-box"
         value={locationImage}
         onChange={(event) => {
             setLocationImage(event.target.value)
