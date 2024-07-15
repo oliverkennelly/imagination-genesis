@@ -6,6 +6,11 @@ Install npm for this project.
 npm install
 ```
 ## Usage
+In the api directory, run
+```bash
+json-server database.json -p 8088
+```
+Then in the project directory run
 ```bash
 npm run dev
 ```
